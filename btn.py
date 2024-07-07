@@ -31,6 +31,14 @@ hisob_toldirish = ReplyKeyboardMarkup(
     ], resize_keyboard=True
 )
 
+back_menu = ReplyKeyboardMarkup(
+    keyboard=[
+        [
+            KeyboardButton("↪️ Bekor qilish")
+        ]
+    ], resize_keyboard=True
+)
+
 # inline
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 

@@ -6,3 +6,6 @@ class BotStates(StatesGroup):
     uzb = State()
     rub = State()
     usd = State()
+    fill_uzb = State()
+    fill_rub = State()
+    fill_usd = State()
