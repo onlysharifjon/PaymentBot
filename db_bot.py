@@ -14,6 +14,6 @@ async def add_user(user_id, phone):
     connect.commit()
     return 'saved'
 
-
-cursor.execute('CREATE TABLE IF NOT EXISTS cards(user_id TEXT UNIQUE,uzcard_humo TEXT,rub TEXT,usz TEXT,usd TEXT)')
-
+#
+# cursor.execute('CREATE TABLE IF NOT EXISTS cards(user_id TEXT UNIQUE,uzcard_humo TEXT,rub TEXT,usz TEXT,usd TEXT)')
+#
